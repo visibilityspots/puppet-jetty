@@ -1,0 +1,8 @@
+name    	'puppet-jetty'
+version 	'1.0.0'
+source 		'Github'
+author 		'Jan Collijs'
+license 	'GPL'
+summary 	'This module manages a jetty server'
+description 	'Using this module the jetty server will be maintained'
+project_page 	'https://github.ugent.be/Universiteitsbibliotheek/pm_jetty'
