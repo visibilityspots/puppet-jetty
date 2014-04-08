@@ -20,8 +20,9 @@ class jetty::config {
   }
 
   file { '/opt/jetty/webapps':
-    ensure => 'link',
-    target => '/var/lib/jetty/webapps'
+    ensure  => 'link',
+    force   => true,
+    target  => '/var/lib/jetty/webapps'
   }
 
   file { '/etc/init.d/jetty':
