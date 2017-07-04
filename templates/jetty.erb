@@ -12,7 +12,7 @@
 # JAVA_OPTIONS
 #   Extra options to pass to the JVM
 #
-<% if @java_options -%>
+<% if scope.lookupvar('jetty::java_options') -%>
 JAVA_OPTIONS="<%= scope.lookupvar('jetty::java_options') %>"
 <% end -%>
 # JETTY_HOME
